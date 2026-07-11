@@ -1,0 +1,12 @@
+:root{
+    --main-color: #3498db;
+    --padding: 10px;
+}
+div{
+    background-color: var(--main-color);
+    padding: var(--padding);
+}
+
+*/Dark mode bang bien + prefers-color-scheme */
+@media (prefers-color-scheme: dark) {
+    :root{--bg:#lalala; --text:#f0f0f0;}
